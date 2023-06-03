@@ -1,0 +1,132 @@
+.contact {
+    height: 80vh;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact .mail {
+    width: fit-content;
+    margin-bottom: 25px;
+}
+
+.contact .mail h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.contact .mail h3 {
+    color: #ff9516;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.contact .mail .button a {
+    display: block;
+    width: fit-content;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    background: #7a7a7a;
+    color: white;
+    letter-spacing: 1.1px;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.contact .mail a:hover {
+    background: #ff9516;
+}
+
+.contact .mail .links-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact .mail .links-social a {
+    display: block;
+    padding: 10px;
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.contact .mail .links-social a:hover {
+    background-color: #ff9516;
+}
+.contact .mail .links-social i {
+    font-size: 20px;
+}
+
+.contact .icon img {
+    width: 600px;
+    height: 600px;
+}
+
+@media(max-width: 575px) {
+
+    .contact .mail h1 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    .contact .mail h3 {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .contact .icon img {
+        width: 380px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 367px) {
+
+
+    .contact .mail h3 {
+        font-size: 13px;
+    }
+
+    .contact .mail h1 {
+        font-size: 21px;
+    }
+
+
+    .contact .mail a {
+        font-size: 13px;
+    }
+
+    .contact .icon img {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGNLIVE</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./script.js">
+</head>
+
+<body>
+    <!-- <div class="style"> -->
+        <header>
+            <div class="logo">
+                <a href="./index.html">DESIGN<span>LIVE</span></a>
+            </div>
+            <nav>
+                <ul id="navbar" class="active">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+                <div class="buttons">
+                    <i id="open-nav" class="fa-solid fa-bars"></i>
+                    <i id="close-nav" class="fa-solid fa-xmark"></i>
+                </div>
+            </nav>
+        </header>
+        <section class="landing">
+            <div class="container">
+                <div class="title">
+                    <h2>i'm Mohamed, <br><span class="text-animate"></span></h2>
+                    <h1>make the best design for your website.</h1>
+                    <div class="go">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right angle-two"></i>
+                        <span class="elments">GO</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/kasper-mockup.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="social-media">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100076692863257"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://instagram.com/elyemlahimohamed86?igshid=NTc4MTIwNjQ2YQ=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/Elyemlahi-Mohamed"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy;
+                <small>DESIGN<span>LIVE</span> : BY MOHAMED EL YEMLAHI</small>
+            </div>
+        </footer>
+    <!-- </div> -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed(".text-animate", {
+    strings: ["Front-end Developer", "HTML CSS JS","Bootstrap React.js"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
+});
+
+    </script>
+    <script src="./script.js"></script>   
+</body>
+
+</html>
